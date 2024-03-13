@@ -1,4 +1,7 @@
 import Home from "./pages/Home";
+import Checkout from "./pages/Checkout";
+import Cart from "./pages/Cart";
+import Productdetail from "./pages/ProductDetail";
 
 export const routes = [
     {
@@ -7,15 +10,15 @@ export const routes = [
     },
     {
       path: "/checkout",
-      element: <div>Hello checkout!</div>,
+      element:<Checkout/>,
     },
     {
-      path: "/productDetails",
-      element: <div>Hello productDetails!</div>,
+      path: "/product",
+      element: <Productdetail/>,
     },
     {
       path: "/cart",
-      element: <div>Hello cart!</div>,
+      element: <Cart/>,
     },
     
   ]
